@@ -143,6 +143,7 @@ do
 	git clone -b $branch $repo
 	cd $reponame/
 	mv .git $newroot/
+	mv .gitignore $newroot/
 	cd $newroot/
 	git init
 	git add .
